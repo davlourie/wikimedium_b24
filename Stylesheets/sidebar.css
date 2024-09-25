@@ -1,0 +1,26 @@
+nav {
+  width: 280px;
+  position: fixed;
+  background-color: rgba(197, 220, 221, 0.676);
+  top: 0px;
+  left: 20px;
+  opacity: 0.2;
+  transition: 0.5;
+}
+nav:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+nav h2 {
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+nav a:hover {
+  color: black;
+}
+nav ol > ol {
+  margin-left: 20px;
+}
